@@ -6,6 +6,19 @@
 
 }
 
+.letra1 {
+	color: black;
+}
+.letra 2 {
+	color: gray;
+}
+
+.letra3 {
+	color: yellow;
+}
+
+
+	
 span {
     font-family: 'Press Start 2P', cursive;
 }
@@ -168,4 +181,5 @@ body {
   -ms-animation: fa-blink .75s linear infinite;
   -o-animation: fa-blink .75s linear infinite;
   animation: fa-blink .75s linear infinite;
+
 }
