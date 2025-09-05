@@ -7,20 +7,46 @@
 }
 
 #letra1 {
-	color: black;
+    color: black;
 }
-#letra 2 {
-	color: gray;
+
+#letra2 {
+    color: gray;
 }
 
 #letra3 {
-	color: yellow;
+    color: yellow;
 }
 
 #letra4 {
-	color: green;
+    color: green;
 }
-	
+
+/* Segunda Frase */
+#letra5 {
+    color: aqua;
+}
+
+#letra6 {
+    color: palevioletred;
+}
+
+#letra7 {
+    color: rebeccapurple;
+}
+
+#letra8 {
+    color: blue;
+}
+
+#letra9 {
+    color: goldenrod;
+}
+
+#letra10 {
+    color: green;
+}
+
 span {
     font-family: 'Press Start 2P', cursive;
 }
@@ -37,7 +63,7 @@ body {
     width: 1200px;
     position: relative;
     overflow: hidden;
-	background: linear-gradient(#87CEEB, #FFFFFF, #FFFFFF);
+    background: linear-gradient(#87CEEB, #FFFFFF, #FFFFFF);
     border: 15px solid;
     border-color: black;
 }
@@ -156,7 +182,7 @@ body {
     position: absolute;
     top: 20px;
     right: 20PX;
-	font-family: 'Press Start 2P', cursive;
+    font-family: 'Press Start 2P', cursive;
 }
 
 #gameOver {
@@ -168,22 +194,29 @@ body {
     width: 362px;
     height: 80px;
     color: #525252;
-	font-family: 'Press Start 2P', cursive;
+    font-family: 'Press Start 2P', cursive;
 }
 
 
 @keyframes fa-blink {
-    0% { opacity: 1; }
-    50% { opacity: 0.5; }
-    100% { opacity: 0; }
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }
+
 .fa-blink {
-  -webkit-animation: fa-blink .75s linear infinite;
-  -moz-animation: fa-blink .75s linear infinite;
-  -ms-animation: fa-blink .75s linear infinite;
-  -o-animation: fa-blink .75s linear infinite;
-  animation: fa-blink #75s linear infinite;
+    -webkit-animation: fa-blink .75s linear infinite;
+    -moz-animation: fa-blink .75s linear infinite;
+    -ms-animation: fa-blink .75s linear infinite;
+    -o-animation: fa-blink .75s linear infinite;
+    animation: fa-blink #75s linear infinite;
 
 }
-
-
